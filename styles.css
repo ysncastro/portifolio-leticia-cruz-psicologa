@@ -159,7 +159,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
-  padding: 21.5px 0;
+  padding: 21.5px 6.5px;
   text-decoration: none;
   color: #ffffff;
   border-radius: 31px;
@@ -179,6 +179,66 @@ body {
 .apresentacao__imagem {
   width: 50%;
   border-radius: 10%;
+}
+
+.sobre__mim {
+  background-color: #902621;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding: 10%;
+}
+
+.sobre__mim__imagem {
+  width: min-content;
+}
+
+.sobre__mim__titulo {
+  color: #fff;
+  font-family: var(--fonte-secundaria);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: max-content;
+}
+
+.sobre__mim__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+
+.sobre__mim__paragrafos {
+  color: #fff;
+  font-family: var(--fonte-secundaria);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 400px;
+}
+
+.sobre__mim__botao__curriculo {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: #902621;
+  font-family: var(--fonte-secundaria);
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border-radius: 10px;
+  background: linear-gradient(162deg, #fff 0%, #fff 100%);
+  box-shadow: 0px 9px 35px 0px #ec627c;
 }
 
 .rodape {
