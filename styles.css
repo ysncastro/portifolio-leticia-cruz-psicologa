@@ -30,6 +30,7 @@ body {
   display: flex;
   align-items: center;
   gap: 13px;
+  /* width: 30%; */
 }
 
 .cabecalho__nome__le {
@@ -39,6 +40,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  width: max-content;
 }
 
 .cabecalho__therapist__le {
@@ -54,7 +56,10 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  gap: 590px;
+  margin-left: 15%;
+  margin-right: 15%;
+  gap: 20%;
+  /* gap: 590px; */
 }
 
 .cabecalho__links {
@@ -68,6 +73,8 @@ body {
   font-weight: 500;
   color: #000000;
   text-decoration: none;
+  text-align: center;
+  width: max-content;
 }
 
 .cabecalho__menu__link:hover {
@@ -171,6 +178,7 @@ body {
 
 .apresentacao__imagem {
   width: 50%;
+  border-radius: 10%;
 }
 
 .rodape {
