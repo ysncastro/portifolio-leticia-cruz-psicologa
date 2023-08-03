@@ -271,7 +271,7 @@ body {
 
 .abordagens {
   background-color: #902621;
-  padding: 4% 15% 0% 15%;
+  padding: 5% 15% 10% 15%;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -319,6 +319,53 @@ body {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
+  line-height: normal;
+}
+
+.contato__section {
+  padding: 6% 15% 30% 15%;
+  background-color: #292229;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contato__titulo {
+  color: #fff;
+  font-family: var(--fonte-secundaria);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.contato__texto {
+  width: 45.4375rem;
+  color: #fff;
+  font-family: var(--fonte-secundaria);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contato__botoes {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contato__telefone {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contato__telefone__texto {
+  color: #fff;
+  font-family: var(--fonte-secundaria);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
   line-height: normal;
 }
 
