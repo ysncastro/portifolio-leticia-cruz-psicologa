@@ -16,6 +16,7 @@
 }
 
 body {
+  position: relative;
   box-sizing: border-box;
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
@@ -379,6 +380,43 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   color: #fff;
+}
+
+.scroll__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.scroll__container:before {
+  content: "";
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+.scroll__container a {
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  color: #902621;
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 22px 20px;
+  text-decoration: none;
+  border-radius: 31px;
+  background: white;
+  font-family: var(--fonte-secundaria);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 @media (max-width: 1206px) {
