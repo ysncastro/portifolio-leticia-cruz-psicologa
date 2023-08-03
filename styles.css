@@ -274,7 +274,7 @@ body {
   padding: 5% 15% 10% 15%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .abordagens__titulo {
@@ -282,7 +282,7 @@ body {
   font-family: var(--fonte-secundaria);
   font-size: 30px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -323,7 +323,7 @@ body {
 }
 
 .contato__section {
-  padding: 6% 15% 30% 15%;
+  padding: 6% 15% 25% 15%;
   background-color: #292229;
   display: flex;
   flex-direction: column;
@@ -370,13 +370,15 @@ body {
 }
 
 .rodape {
-  color: var(--cor-primaria);
-  background-color: var(--cor-terciaria);
+  justify-content: center;
+  gap: 9rem;
+  background-color: #292229;
   padding: 24px;
   text-align: center;
   font-family: var(--fonte-secundaria);
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   font-weight: 400;
+  color: #fff;
 }
 
 @media (max-width: 1206px) {
