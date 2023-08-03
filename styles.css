@@ -243,7 +243,7 @@ body {
 
 .frase__section {
   background-color: #e4e4e4;
-  padding: 13%;
+  padding: 8%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -266,6 +266,59 @@ body {
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+
+.abordagens {
+  background-color: #902621;
+  padding: 4% 15% 0% 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.abordagens__titulo {
+  color: #fff;
+  font-family: var(--fonte-secundaria);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.abordagens__abordagem {
+  display: flex;
+}
+
+.abordagens__abordagem__imagem {
+  width: 37.5rem;
+  height: 18.3125rem;
+}
+
+.abordagens__abordagem__conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #d9d9d9;
+  width: 42.3%;
+  padding: 5%;
+}
+
+.abordagens__abordagem__titulo {
+  color: #392a31;
+  font-family: var(--fonte-secundaria);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.abordagens__abordagem__texto {
+  color: #000;
+  font-family: var(--fonte-secundaria);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
 
