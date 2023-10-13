@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+:root {
+    --cor-primaria: #e4e4e4;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Layout do Header*/
+.header-css {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.header-css>div {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.header-item {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 800px) {
+    .header-css {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-css>div {
+        color: white;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+}
+
+/* Stylo do Header */
+.cabecalho {
+    padding: 1.5% 0 1.5% 0;
+    background-color: #f3f3f3;
+}
+
+.cabecalho__nome__le {
+    color: #413038;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: max-content;
+}
+
+.cabecalho__therapist__le {
+    color: #413038;
+    font-family: var(--fonte-secundaria);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    width: max-content;
+}
+
+.cabecalho__menu__link:hover {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000000;
+    /* text-decoration: underline rgba(0, 0, 0, 0.27) 1px; */
+}
